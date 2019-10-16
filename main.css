@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, rgb(184, 194, 254), rgb(182, 94, 233));
+}
+
+#container {
+    background-color: white;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto; /* Give the element a margin of 100px on the top and bottom and automatically calculate the left and right margin to center it horizontally */
+    border-radius: 20px; /* Round off the edges of the element */
+    box-shadow: 10px 10px 5px black; /* Box shadow properties: horizontal offset (required), vertical offset (required), blur (optional), spread (optional), color (optional) */ 
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 100px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p {
+    padding-left: 20px;
+}
+
+#billAmt, #serviceQual, #numPeople { /* Elements with the ID of billAmt, serviceQual, and numPeople will receive these styles */
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#billAmt:focus, #serviceQual:focus, #numPeople:focus {
+    border: 3px solid gray;
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    background-color: lightgray;
+    color: white;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button:focus {
+    outline: none;
+}
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
+ 
